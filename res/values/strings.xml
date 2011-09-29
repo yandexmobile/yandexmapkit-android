@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MapKitTest!</string>
+    <string name="app_name">YMK Sample</string>
+    <string name="app_name_head">Yandex Map Kit</string>
+
+    <string name="sample1">Объект на карте/Простое додобавление объекта на карту</string>
+    <string name="sample1_head">Объект на карте</string>
+
+    <string name="sample2">Нестандартный балун/Гибкую настройку балуна объекта обработка нажатия на балун</string>
+    <string name="sample2_head">Нестандартный балун</string>
+
+    <string name="sample3">Нестандартный объект/Настройка отображения объекта на карте путем изменения его свойств</string>
+    <string name="sample3_head">Нестандартный объект</string>
+
+    <string name="sample4">Передвигаемый объект/Возможность перетаскивания добаленного объекта по карте</string>
+    <string name="sample4_head">Передвигаемый объект</string>
+
+
+    <string name="sample5">Отображения пробок/Демонстрирует показ пробок на карте</string>
+    <string name="sample5_head">Отображения пробок</string>
+
+    <string name="sample6">Настройка слоёв карты/Выбор активного слоя на карте Схема, Гибрид, Народная карта</string>
+    <string name="sample6_head">Настройка слоёв карты</string>
+
+
+    <string name="kremlin">Кремль</string>
+
+
+    <string name="yandex">Яндекс</string>
+
+    <string name="drag">Перетащи меня!</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map_layers>
+    <l id="1" request="map"     name="Схема"          ver="1" service="0" size_in_pixels="128" allows_night_mode="1"/>
+    <l id="2" request="sat,skl" name="Спутник"        ver="1" service="0" size_in_pixels="128" allows_night_mode="0"/>
+    <l id="3" request="pmap"    name="Народная карта" ver="1" service="0" size_in_pixels="128" allows_night_mode="1"/>
+    <l request="meta"    id="4" name=""               ver="1" service="1" /> <!--Тип, который не может существовать сам по себе. (читай - как настройка в меню)-->
+</map_layers>
