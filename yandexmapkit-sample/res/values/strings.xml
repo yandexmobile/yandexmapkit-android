@@ -4,7 +4,7 @@
     <string name="app_name">YMK Sample</string>
     <string name="app_name_head">Yandex Map Kit</string>
 
-    <string name="sample1">Объект на карте/Простое додобавление объекта на карту</string>
+    <string name="sample1">Объект на карте/Простое добавление объекта на карту</string>
     <string name="sample1_head">Объект на карте</string>
 
     <string name="sample2">Нестандартный балун/Гибкую настройку балуна объекта обработка нажатия на балун</string>
