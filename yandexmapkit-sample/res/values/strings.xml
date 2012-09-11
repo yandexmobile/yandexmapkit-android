@@ -1,33 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
     <string name="hello">Hello World, MapKitTest!</string>
     <string name="app_name">YMK Sample</string>
     <string name="app_name_head">Yandex Map Kit</string>
-
     <string name="sample1">Объект на карте/Простое добавление объекта на карту</string>
     <string name="sample1_head">Объект на карте</string>
-
-    <string name="sample2">Нестандартный балун/Гибкую настройку балуна объекта обработка нажатия на балун</string>
-    <string name="sample2_head">Нестандартный балун</string>
-
+    <string name="sample2">Стандартный балун/Простое использование</string>
+    <string name="sample2_head">Стандартный балун</string>
+    <string name="sample2one">Нестандартный балун 1/Гибкую настройку балуна объекта обработка нажатия на балун разширение</string>
+    <string name="sample2one_head">Нестандартный балун разширение</string>
+    <string name="sample2two">Нестандартный балун 2/Гибкую настройку балуна объекта обработка нажатия на балун разширение</string>
+    <string name="sample2two_head">Нестандартный балун </string>
     <string name="sample3">Нестандартный объект/Настройка отображения объекта на карте путем изменения его свойств</string>
     <string name="sample3_head">Нестандартный объект</string>
-
     <string name="sample4">Передвигаемый объект/Возможность перетаскивания добаленного объекта по карте</string>
     <string name="sample4_head">Передвигаемый объект</string>
-
-
     <string name="sample5">Отображения пробок/Демонстрирует показ пробок на карте</string>
     <string name="sample5_head">Отображения пробок</string>
-
     <string name="sample6">Настройка слоёв карты/Выбор активного слоя на карте Схема, Гибрид, Народная карта</string>
     <string name="sample6_head">Настройка слоёв карты</string>
-
-
+    <string name="sample7">HD карта, ночной режим/Выбор HD карты, ночного режима</string>
+    <string name="sample7_head">HD карта, ночной режим</string>
+    <string name="sample8">Сообщения от карты/Возможность получения сообщения от карты </string>
+    <string name="sample8_head">Сообщения от карты</string>
+    <string name="sample9">Карта в ScrollView/Добовление карты в ScrollView</string>
+    <string name="sample9_head">Карта в ScrollView</string>
+    <string name="sample10">Карта в ListView/Добовление карты в ListView</string>
+    <string name="sample10_head">Карта в ListView</string>
+    <string name="sample11">Местоположение/Позволяет получать данные при изменения местоположения</string>
+    <string name="sample11_head">Местоположение</string>
+    <string name="sample12">Путь/Позволяте рисовать путь</string>
+    <string name="sample12_head">Путь</string>
+    <string name="sample13">GeoCode/Получать данные по координатам</string>
+    <string name="sample13_head">GeoCode</string>
     <string name="kremlin">Кремль</string>
-
-
     <string name="yandex">Яндекс</string>
-
     <string name="drag">Перетащи меня!</string>
 </resources>

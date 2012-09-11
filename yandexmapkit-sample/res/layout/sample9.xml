@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <LinearLayout
+            android:id="@+id/view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            
+            <ru.yandex.yandexmapkit.MapView
+                android:id="@+id/map"
+                android:layout_width="fill_parent"
+                android:layout_height="300dip"
+                android:apiKey="1234567890"
+                android:tag="static"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

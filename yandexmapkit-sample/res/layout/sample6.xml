@@ -7,12 +7,11 @@
         android:id="@+id/map"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:apiKey="you api key"
+        android:apiKey="1234567890"
         android:layout_weight="1"
         />
 	<LinearLayout android:id="@+id/lay" android:layout_width="fill_parent"
 		android:layout_height="wrap_content" android:orientation="horizontal">
-	</LinearLayout>
+		</LinearLayout>
 
 </LinearLayout>
-

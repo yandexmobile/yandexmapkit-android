@@ -5,24 +5,59 @@
     android:orientation="horizontal"
     >
     
-    <!-- Left buttons -->
     <LinearLayout
-        android:layout_width="wrap_content" 
-        android:layout_height="fill_parent"
-        android:orientation="vertical"
-        android:layout_alignParentLeft="true"
-        android:paddingLeft="5dip"
+        android:id="@+id/screen_buttons_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        >        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/screen_buttons_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:paddingRight="5dip"
+        android:paddingLeft="5dip" 
+        android:paddingBottom="5dip"  
         >
         
-        <Button
+     <ru.yandex.yandexmapkit.map.scale.ScaleView
+            android:id="@+id/scale" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:background="#CCFFFFFF"
+            android:textColor="#FF000000"
+            android:textColorHighlight="#ff000000"
+            android:textSize="16dip"
+            />
+    </LinearLayout>
+    
+    <!-- Left buttons -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/screen_buttons_top"
+        android:layout_above="@id/screen_buttons_bottom"
+        android:paddingLeft="5dip" >
+        
+        <ru.yandex.yandexmapkit.map.jams.JamsButton
             android:id="@+id/semaphore" 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
-            android:background="@drawable/sgrayvga"
+            android:background="@drawable/tlight_no_level_inactive"
             android:paddingLeft="6dip"
             android:textColor="#ff000000"
             android:textColorHighlight="#ff000000"
+            android:textStyle="bold"
             />
     </LinearLayout>
     
@@ -34,6 +69,8 @@
         android:layout_alignParentRight="true"
         android:gravity="center_vertical"
         android:paddingRight="5dip"
+        android:layout_below="@id/screen_buttons_top"
+        android:layout_above="@id/screen_buttons_bottom"
         >
         
         <ImageButton

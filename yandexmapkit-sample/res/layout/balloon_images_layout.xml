@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/balloon_black"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/balloon_images_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="DELETE"
+        android:src="@android:drawable/ic_delete" />
+
+    <ImageView
+        android:id="@+id/balloon_images_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="ALERT"
+        android:src="@android:drawable/ic_dialog_alert" />
+
+    <ImageView
+        android:id="@+id/balloon_images_view3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="INFO"
+        android:src="@android:drawable/ic_dialog_info" />
+
+    <ImageView
+        android:id="@+id/balloon_images_view4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="ADD"
+        android:src="@android:drawable/ic_input_add" />
+
+</LinearLayout>

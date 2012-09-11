@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/balloon_black"
+    android:orientation="vertical" >
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/balloon_text_view1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Москвоский кремль Здесь можно еще много о чем написать"
+        android:textColor="@drawable/balloon_text_color" />
+
+    <ImageView
+        android:id="@+id/balloon_image_view1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/kreml" />
+
+</LinearLayout>
