@@ -6,7 +6,7 @@
     >
     
     <LinearLayout
-        android:id="@+id/screen_buttons_top"
+        android:id="@+id/ymk_screen_buttons_top"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -15,7 +15,7 @@
     </LinearLayout>
     
     <LinearLayout
-        android:id="@+id/screen_buttons_bottom"
+        android:id="@+id/ymk_screen_buttons_bottom"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -27,7 +27,7 @@
         >
         
      <ru.yandex.yandexmapkit.map.scale.ScaleView
-            android:id="@+id/scale" 
+            android:id="@+id/ymk_scale" 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
@@ -44,16 +44,16 @@
         android:layout_width="wrap_content"
         android:layout_height="fill_parent"
         android:layout_alignParentLeft="true"
-        android:layout_below="@id/screen_buttons_top"
-        android:layout_above="@id/screen_buttons_bottom"
+        android:layout_below="@id/ymk_screen_buttons_top"
+        android:layout_above="@id/ymk_screen_buttons_bottom"
         android:paddingLeft="5dip" >
         
         <ru.yandex.yandexmapkit.map.jams.JamsButton
-            android:id="@+id/semaphore" 
+            android:id="@+id/ymk_semaphore" 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
-            android:background="@drawable/tlight_no_level_inactive"
+            android:background="@drawable/ymk_tlight_no_level_inactive"
             android:paddingLeft="6dip"
             android:textColor="#ff000000"
             android:textColorHighlight="#ff000000"
@@ -69,33 +69,33 @@
         android:layout_alignParentRight="true"
         android:gravity="center_vertical"
         android:paddingRight="5dip"
-        android:layout_below="@id/screen_buttons_top"
-        android:layout_above="@id/screen_buttons_bottom"
+        android:layout_below="@id/ymk_screen_buttons_top"
+        android:layout_above="@id/ymk_screen_buttons_bottom"
         >
         
         <ImageButton
-            android:id="@+id/zoom_in" 
+            android:id="@+id/ymk_zoom_in" 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/zoom_plus_drawable"
+            android:src="@drawable/ymk_zoom_plus_drawable"
             android:background="#00000000"
             />
         
         <ImageButton
-            android:id="@+id/zoom_out" 
+            android:id="@+id/ymk_zoom_out" 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dip"
-            android:src="@drawable/zoom_minus_drawable"
+            android:src="@drawable/ymk_zoom_minus_drawable"
             android:background="#00000000"
             />
         
         <ImageButton
-            android:id="@+id/find_me" 
+            android:id="@+id/ymk_find_me" 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dip"
-            android:src="@drawable/find_me_drawable"
+            android:src="@drawable/ymk_find_me_drawable"
             android:background="#00000000"
             />
     </LinearLayout>

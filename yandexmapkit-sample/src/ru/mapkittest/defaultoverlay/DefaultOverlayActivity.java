@@ -32,6 +32,7 @@ public class DefaultOverlayActivity extends Activity {
     /** Called when the activity is first created. */
     MapController mMapController;
     OverlayManager mOverlayManager;
+    MapView mapView;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -40,7 +41,7 @@ public class DefaultOverlayActivity extends Activity {
 
         setContentView(R.layout.sample);
 
-        final MapView mapView = (MapView) findViewById(R.id.map);
+        mapView = (MapView) findViewById(R.id.map);
 
         mMapController = mapView.getMapController();
         mOverlayManager = mMapController.getOverlayManager();
@@ -49,6 +50,8 @@ public class DefaultOverlayActivity extends Activity {
 
         // A simple implementation of map objects
         showObject();
+        
+        
 
     }
 
@@ -60,7 +63,7 @@ public class DefaultOverlayActivity extends Activity {
         Overlay overlay = new Overlay(mMapController);
 
         // Create an object for the layer
-        OverlayItem kremlin = new OverlayItem(new GeoPoint(55.752004 , 37.617017), res.getDrawable(R.drawable.shop));
+        final OverlayItem kremlin = new OverlayItem(new GeoPoint(55.752004 , 37.617017), res.getDrawable(R.drawable.shop));
         // Create a balloon model for the object
         BalloonItem balloonKremlin = new BalloonItem(this,kremlin.getGeoPoint());
         balloonKremlin.setText(getString(R.string.kremlin));
@@ -70,7 +73,7 @@ public class DefaultOverlayActivity extends Activity {
         overlay.addOverlayItem(kremlin);
 
         // Create an object for the layer
-        OverlayItem yandex = new OverlayItem(new GeoPoint(55.734029 , 37.588499), res.getDrawable(R.drawable.shop));
+        final OverlayItem yandex = new OverlayItem(new GeoPoint(55.601404 , 37.274668), res.getDrawable(R.drawable.shop));
         // Create the balloon model for the object
         BalloonItem balloonYandex = new BalloonItem(this,yandex.getGeoPoint());
         balloonYandex.setText(getString(R.string.yandex));
@@ -81,6 +84,7 @@ public class DefaultOverlayActivity extends Activity {
 
         // Add the layer to the map
         mOverlayManager.addOverlay(overlay);
+        
     }
 
 }
