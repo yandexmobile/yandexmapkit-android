@@ -64,7 +64,7 @@ public class BalloonOverlayActivity extends Activity implements OnBalloonListene
         OverlayItem kremlin = new OverlayItem(new GeoPoint(55.752004 , 37.617017), res.getDrawable(R.drawable.kreml));
         // Create a balloon model for the object
         BalloonItem balloonKremlin = new BalloonItem(this,kremlin.getGeoPoint());
-        balloonKremlin.setText("Москвоский кремль Здесь можно еще много о чем написать");
+        balloonKremlin.setText("Московский Кремль. Здесь можно ещё много о чём написать.");        
         //
         balloonKremlin.setOnBalloonListener(this);
         //        // Add the balloon model to the object
