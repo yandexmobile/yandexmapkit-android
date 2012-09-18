@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@drawable/balloon_black"
+    android:background="@drawable/ymk_balloon_black"
     android:orientation="vertical" >
 
     <TextView
@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="Московский Кремль. Здесь можно ещё много о чём написать"
-        android:textColor="@drawable/balloon_text_color" />
+        android:textColor="@drawable/ymk_balloon_text_color" />
 
     <ImageView
         android:id="@+id/balloon_image_view1"

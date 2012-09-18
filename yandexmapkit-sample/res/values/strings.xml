@@ -33,8 +33,12 @@
     <string name="sample12_head">Путь</string>
     <string name="sample13">GeoCode/Получать данные по координатам</string>
     <string name="sample13_head">GeoCode</string>
+    <string name="sample14">ZoomSpan/Устанавливает зум чтоб поместились все объекты</string>
+    <string name="sample14_head">ZoomSpan</string>
     <string name="kremlin">Кремль</string>
     <string name="yandex">Яндекс</string>
+    <string name="omsk">Омск</string>
+    <string name="berlin">Берлин</string>
     <string name="drag">Перетащи меня!</string>
 </resources>
 
