@@ -10,7 +10,7 @@
         android:id="@+id/balloon_text_view1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Москвоский кремль Здесь можно еще много о чем написать"
+        android:text="Московский Кремль. Здесь можно ещё много о чём написать"
         android:textColor="@drawable/ymk_balloon_text_color" />
 
     <ImageView
