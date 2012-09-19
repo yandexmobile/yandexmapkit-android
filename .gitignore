@@ -1,3 +1,6 @@
 yandexmapkit-library/local.properties
 yandexmapkit-library/bin/*
 yandexmapkit-library/gen/*
+yandexmapkit-sample/local.properties
+yandexmapkit-sample/bin/*
+yandexmapkit-sample/gen/*
