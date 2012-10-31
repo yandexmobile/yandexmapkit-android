@@ -27,7 +27,11 @@
 
 Дополнительная информация
 ---------------------------
+Дополнительная информация
+---------------------------
 
-Также у этого проекта есть JavaDoc, который находится в yandexmapkit-library\doc. В нем содержится полезная информация о классах и методов Yandex Map Kit.
+Также у этого проекта есть:
+* [Wiki](https://github.com/yandexmobile/yandexmapkit-android/wiki), в которой содержится полезная информация о Yandex Map Kit.
+* JavaDoc, который находится в yandexmapkit-library/doc. В нем содержится описание классов и методов Yandex Map Kit.
 
 Если вы хотите сообщить об ошибке или предложить идею в развитии, то напишите об этом, пожалуйста, в [Issues](https://github.com/yandexmobile/yandexmapkit-android/issues).
