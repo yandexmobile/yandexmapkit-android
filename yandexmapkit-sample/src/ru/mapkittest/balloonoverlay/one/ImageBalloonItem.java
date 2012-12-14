@@ -12,6 +12,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 import ru.mapkittest.R;
+import ru.yandex.yandexmapkit.overlay.OverlayItem;
 import ru.yandex.yandexmapkit.overlay.balloon.BalloonItem;
 import ru.yandex.yandexmapkit.overlay.balloon.OnBalloonListener;
 import ru.yandex.yandexmapkit.utils.GeoPoint;
@@ -105,5 +106,19 @@ public class ImageBalloonItem extends BalloonItem implements OnBalloonListener{
     public void onBalloonAnimationEnd(BalloonItem balloonItem) {
         // TODO Auto-generated method stub
 
+    }
+
+    @Override
+    public int compareTo(Object object) {
+        int thisPriority = getPriority();
+        int itemPriority = ((OverlayItem) object).getPriority();
+
+        if (thisPriority < itemPriority) {
+            return -1;
+        } else if (thisPriority == itemPriority) {
+            return 0;
+        } else {
+            return 1;
+        }
     }
 }

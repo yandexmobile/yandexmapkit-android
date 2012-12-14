@@ -62,4 +62,17 @@ public class OverlayRect extends Overlay {
         return draw;
     }
 
+    @Override
+    public int compareTo(Object object) {
+        int thisPriority = getPriority();
+        int itemPriority = ((OverlayItem) object).getPriority();
+
+        if (thisPriority < itemPriority) {
+            return -1;
+        } else if (thisPriority == itemPriority) {
+            return 0;
+        } else {
+            return 1;
+        }
+    }
 }
