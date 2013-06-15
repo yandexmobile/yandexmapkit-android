@@ -14,6 +14,27 @@
 5.  Подставьте свой API ключ во все  layout где  используется объект MapView
 6.  Всё готово к запуску тестового проекта
 
+Использование с Maven
+---------------------
+
+Установите библиотеку в свой репозиторий или локально, с помощью `mvn clean install`.
+После этого добавьте следующие строки в `pom.xml` своего проекта:
+
+```xml
+<dependency>
+    <groupId>ru.yandex.android.yandexmapkit</groupId>
+    <artifactId>library</artifactId>
+    <version>2.0</version>
+    <type>apklib</type>
+</dependency>
+<dependency>
+    <groupId>ru.yandex.android.yandexmapkit</groupId>
+    <artifactId>library</artifactId>
+    <version>2.0</version>
+    <type>jar</type>
+</dependency>
+```
+
 
 Миграция с первой версии
 -------------------------
