@@ -14,6 +14,21 @@
 5.  Подставьте свой API ключ во все  layout где  используется объект MapView
 6.  Всё готово к запуску тестового проекта
 
+Gradle:
+```groovy
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url 'https://github.com/yandexmobile/yandexmapkit-android/raw/maven/' }
+    }
+}
+
+dependencies {
+    compile 'ru.yandex:yandexmapkit:2.4.0@aar'
+}
+
+```
 
 Миграция с первой версии
 -------------------------
