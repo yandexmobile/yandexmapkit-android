@@ -25,7 +25,7 @@ allprojects {
 }
 
 dependencies {
-    compile 'ru.yandex:yandexmapkit:2.4.1@aar'
+    compile 'ru.yandex:yandexmapkit:2.4.2@aar'
 }
 
 ```
