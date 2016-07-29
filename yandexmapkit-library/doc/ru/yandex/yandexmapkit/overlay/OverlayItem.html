@@ -262,6 +262,14 @@ OverlayItem.java: Renders an overlay object.
 <BR>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sets the visibility of the object being rendered.</TD>
 </TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;int</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../ru/yandex/yandexmapkit/overlay/Overlay.html#compareTo(java.lang.Object)">compareTo</A></B></CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Used to determine z-order of visible elements.</TD>
+</TR>
 </TABLE>
 &nbsp;
 <P>
@@ -324,6 +332,23 @@ public void <B>setVisible</B>(boolean&nbsp;visible)</PRE>
 </DD>
 <DD><DL>
 <DT><B>Parameters:</B><DD><CODE>visible</CODE> - true - the object should be visible while it is being rendered, false - hidden</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="compareTo(java.lang.Object)"><!-- --></A><H3>
+compareTo</H3>
+<PRE>
+public int <B>compareTo</B>(java.lang.Object&nbsp;object)</PRE>
+<DL>
+<DD>Used to determine z-order of visible elements. Called when visibility of Overlay or OverlayItem changed. For instance, when user touched OverlayItem and Balloon became visible. See also <A HREF="../../../../ru/yandex/yandexmapkit/overlay/OverlayItem.html#setPriority(byte)"><CODE>setPriority(byte)</CODE></A><DD><DL>
+</DL>
+</DD>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>object</CODE> - the object to be compared</DL>
+</DD>
+<DD><DL>
+<DT><B>Returns:</B><DD>a negative integer, zero, or a positive integer as this object is less than, equal to, or greater than the specified object</DL>
 </DD>
 </DL>
 <HR>
