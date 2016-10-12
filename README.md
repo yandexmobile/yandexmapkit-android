@@ -3,6 +3,11 @@
 ChangeLog
 ----------
 
+version 2.5.1
+ 
+ 1. Исправлены ошибки отображения кнопок на карте
+ 2. Добавлен пример работы с запросом разрешений на получения геопозиции
+
 version 2.5.0
  
  1. Исправлены ошибки, приводившие к падениям
@@ -34,7 +39,7 @@ allprojects {
 }
 
 dependencies {
-    compile 'ru.yandex:yandexmapkit:2.5.0@aar'
+    compile 'ru.yandex:yandexmapkit:2.5.1@aar'
 }
 
 ```
