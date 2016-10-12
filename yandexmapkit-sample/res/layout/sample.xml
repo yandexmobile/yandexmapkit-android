@@ -8,6 +8,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:apiKey="1234567890"
+        android:tag="static"    
         android:layout_weight="1"
     />
 </LinearLayout>
