@@ -3,6 +3,11 @@
 ChangeLog
 ----------
 
+version 2.5.2
+
+1. Исправлены ошибки при отображении карты
+2. Добавлен arm64-v8a и x86_64 архитектуры
+
 version 2.5.1
  
  1. Исправлены ошибки отображения кнопок на карте
@@ -19,14 +24,16 @@ version 2.5.0
 
 1.  Клонируйте репозиторий примера
     git clone https://github.com/yandexmobile/yandexmapkit-android.git
-2.  В папке yandexmapkit-library находятся библиотеки ресурсы и документация для Yandex Map Kit данный  проект является library project 
-3.  В папке yandexmapkit-sample находится пример приложения который зависит от проекта yandexmapkit-library
-4.  Данные проекты уже настроены для работы в среде Eclipse
- 1.	Импортируйте данные проекты в среду Eclipse 
- 2. Проверьте в настройках проекта yandexmapkit-library  в пункте Android  что установлена  "is Library"
- 3. Проверьте в настройках проекта yandexmapkit-sample в пункте  Android что есть зависимость от проекта yandexmapkit-library
-5.  Подставьте свой API ключ во все  layout где  используется объект MapView
-6.  Всё готово к запуску тестового проекта
+2.  В папке yandexmapkit-sample находится пример приложения который через gradle зависимость подключает мапкит
+3.  Данные проекты уже настроены для работы в среде Eclipse
+ 1.	Импортируйте данные проекты в среду Eclipse или Android Studio
+ 2. Выполняете Gradle Sync для  проекта. 
+4.  Подставьте свой API ключ во все layout где используется объект MapView
+5.  Всё готово к запуску тестового проекта
+
+Запуск из командной строки.
+
+    gradlew assembleDebug
 
 Gradle:
 ```groovy
