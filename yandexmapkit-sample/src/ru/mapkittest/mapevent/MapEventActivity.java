@@ -86,33 +86,33 @@ public class MapEventActivity extends Activity implements OnMapListener{
 
         switch (event.getMsg()) {
         case MapEvent.MSG_SCALE_BEGIN:
-            textView.setText("MSG_SCALE_BEGIN");
+            textView.setText("MSG_SCALE_BEGIN "+event.isGesture());
             break;
         case MapEvent.MSG_SCALE_MOVE:
-            textView.setText("MSG_SCALE_MOVE");
+            textView.setText("MSG_SCALE_MOVE " + event.isGesture());
             break;
         case MapEvent.MSG_SCALE_END:
-            textView.setText("MSG_SCALE_END");
+            textView.setText("MSG_SCALE_END " + event.isGesture());
             break;
 
         case MapEvent.MSG_ZOOM_BEGIN:
-            textView.setText("MSG_ZOOM_BEGIN");
+            textView.setText("MSG_ZOOM_BEGIN " + event.isGesture());
             break;
         case MapEvent.MSG_ZOOM_MOVE:
-            textView.setText("MSG_ZOOM_MOVE");
+            textView.setText("MSG_ZOOM_MOVE " + event.isGesture());
             break;
         case MapEvent.MSG_ZOOM_END:
-            textView.setText("MSG_ZOOM_END");
+            textView.setText("MSG_ZOOM_END " + event.isGesture());
             break;
 
         case MapEvent.MSG_SCROLL_BEGIN:
-            textView.setText("MSG_SCROLL_BEGIN");
+            textView.setText("MSG_SCROLL_BEGIN " + event.isGesture());
             break;
         case MapEvent.MSG_SCROLL_MOVE:
-            textView.setText("MSG_SCROLL_MOVE");
+            textView.setText("MSG_SCROLL_MOVE " + event.isGesture());
             break;
         case MapEvent.MSG_SCROLL_END:    
-            textView.setText("MSG_SCROLL_END");
+            textView.setText("MSG_SCROLL_END " + event.isGesture());
             break;
         default:
             textView.setText("MSG_EMPTY");

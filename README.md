@@ -7,6 +7,7 @@ version 2.5.3
 
 1. Исправлена ошибка утечки [#243](https://github.com/yandexmobile/yandexmapkit-android/issues/243)
 2. Исправлена ошибка [#240](https://github.com/yandexmobile/yandexmapkit-android/issues/240)
+3. Добавили свойство в MapEvent isGesture() [#237](https://github.com/yandexmobile/yandexmapkit-android/issues/237)
 
 version 2.5.2
 
