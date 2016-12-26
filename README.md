@@ -3,6 +3,11 @@
 ChangeLog
 ----------
 
+version 2.5.3
+
+1. Исправлена ошибка утечки [#243](https://github.com/yandexmobile/yandexmapkit-android/issues/243)
+2. Исправлена ошибка [#240](https://github.com/yandexmobile/yandexmapkit-android/issues/240)
+
 version 2.5.2
 
 1. Исправлены ошибки при отображении карты
