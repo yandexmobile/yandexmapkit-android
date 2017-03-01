@@ -1,7 +1,7 @@
 package ru.mapkittest.defaultoverlay;
 
 
-
+import android.util.Log;
 import android.app.Activity;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
@@ -15,6 +15,7 @@ import ru.yandex.yandexmapkit.overlay.Overlay;
 import ru.yandex.yandexmapkit.overlay.OverlayItem;
 import ru.yandex.yandexmapkit.overlay.balloon.BalloonItem;
 import ru.yandex.yandexmapkit.overlay.balloon.BalloonRender;
+import ru.yandex.yandexmapkit.overlay.OnOverlayItemListener;
 import ru.yandex.yandexmapkit.utils.GeoPoint;
 
 /**
@@ -63,7 +64,7 @@ public class DefaultOverlayActivity extends Activity {
         Overlay overlay = new Overlay(mMapController);
 
         // Create an object for the layer
-        final OverlayItem kremlin = new OverlayItem(new GeoPoint(55.752004 , 37.617017), res.getDrawable(R.drawable.shop));
+        final OverlayItem kremlin = new OverlayItem(new GeoPoint(55.752004, 37.617017), res.getDrawable(R.drawable.shop));
         // Create a balloon model for the object
         BalloonItem balloonKremlin = new BalloonItem(this,kremlin.getGeoPoint());
         balloonKremlin.setText(getString(R.string.kremlin));
@@ -73,7 +74,7 @@ public class DefaultOverlayActivity extends Activity {
         overlay.addOverlayItem(kremlin);
 
         // Create an object for the layer
-        final OverlayItem yandex = new OverlayItem(new GeoPoint(55.601404 , 37.274668), res.getDrawable(R.drawable.shop));
+        final OverlayItem yandex = new OverlayItem(new GeoPoint(55.734182, 37.588142), res.getDrawable(R.drawable.shop));
         // Create the balloon model for the object
         BalloonItem balloonYandex = new BalloonItem(this,yandex.getGeoPoint());
         balloonYandex.setText(getString(R.string.yandex));
@@ -82,6 +83,23 @@ public class DefaultOverlayActivity extends Activity {
         // Add the object to the layer
         overlay.addOverlayItem(yandex);
 
+
+        final OverlayItem parkKultury = new OverlayItem(new GeoPoint(55.735562 , 37.594215), res.getDrawable(R.drawable.shop));
+        parkKultury.setOverlayItemListener(new OnOverlayItemListener(){
+            public void onClick(OverlayItem clickItem){
+                Log.w("DefaultOverlayActivity", "Park Kultury");
+            }
+        });
+        overlay.addOverlayItem(parkKultury);
+
+        final OverlayItem parkPobedy = new OverlayItem(new GeoPoint(55.736238, 37.516079), res.getDrawable(R.drawable.shop));
+        parkPobedy.setOverlayItemListener(new OnOverlayItemListener(){
+            public void onClick(OverlayItem clickItem){
+                Log.w("DefaultOverlayActivity", "Park Pobedy");
+            }
+        });
+        overlay.addOverlayItem(parkPobedy);
+        
         // Add the layer to the map
         mOverlayManager.addOverlay(overlay);
         

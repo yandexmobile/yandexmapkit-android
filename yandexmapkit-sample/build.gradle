@@ -15,7 +15,8 @@ allprojects {
     repositories {
         jcenter()
         mavenCentral()
-        maven { url 'https://github.com/yandexmobile/yandexmapkit-android/raw/maven/' }
+        //maven { url 'https://github.com/yandexmobile/yandexmapkit-android/raw/maven/' }
+        maven { url '/Users/mksaint13/Documents/work/yandexmapkit-android/' }
     }
 }
 
@@ -60,5 +61,5 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.1'
-    compile 'ru.yandex:yandexmapkit:2.5.3@aar'
+    compile 'ru.yandex:yandexmapkit:2.5.4@aar'
 }

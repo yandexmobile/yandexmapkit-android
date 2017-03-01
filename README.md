@@ -3,6 +3,14 @@
 ChangeLog
 ----------
 
+version 2.5.4
+
+1. Добавлено новое API уOverlayItem setOverlayItemListener [#256](https://github.com/yandexmobile/yandexmapkit-android/issues/256)
+2. Исправлена ошибка [#253](https://github.com/yandexmobile/yandexmapkit-android/issues/253)
+3. Исправлена ошибка [#249](https://github.com/yandexmobile/yandexmapkit-android/issues/249)
+4. Исправлена ошибка [#240](https://github.com/yandexmobile/yandexmapkit-android/issues/240)
+5. Исправлена ошибка [#234](https://github.com/yandexmobile/yandexmapkit-android/issues/234)
+
 version 2.5.3
 
 1. Исправлена ошибка утечки [#243](https://github.com/yandexmobile/yandexmapkit-android/issues/243)
@@ -52,7 +60,7 @@ allprojects {
 }
 
 dependencies {
-    compile 'ru.yandex:yandexmapkit:2.5.1@aar'
+    compile 'ru.yandex:yandexmapkit:2.5.4@aar'
 }
 
 ```
