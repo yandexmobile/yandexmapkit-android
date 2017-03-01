@@ -9,7 +9,7 @@ allprojects {
 }
 
 dependencies {
-    compile 'ru.yandex:yandexmapkit:2.5.3@aar'
+    compile 'ru.yandex:yandexmapkit:2.5.4@aar'
 }
 
 ```
