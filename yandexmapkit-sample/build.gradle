@@ -15,8 +15,7 @@ allprojects {
     repositories {
         jcenter()
         mavenCentral()
-        //maven { url 'https://github.com/yandexmobile/yandexmapkit-android/raw/maven/' }
-        maven { url '/Users/mksaint13/Documents/work/yandexmapkit-android/' }
+        maven { url 'https://github.com/yandexmobile/yandexmapkit-android/raw/maven/' }
     }
 }
 
