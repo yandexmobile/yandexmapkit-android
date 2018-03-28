@@ -1,3 +1,12 @@
+Эта версия больше не поддерживается, актуальную инфрмацию о новых версиях MapKit можно найти по ссылкам:
+
+[Документация](https://tech.yandex.ru/maps/mapkit/)
+
+[Maven Central](https://search.maven.org/#search%7Cga%7C1%7Cyandex%20mapkit)
+
+[Примеры использования](https://github.com/yandex/mapkit-android-demo)
+
+
 В этом репозитории находится тестовое приложение, демонстрирующее возможности Yandex Map Kit.
 
 ChangeLog
